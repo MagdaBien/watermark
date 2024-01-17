@@ -21,7 +21,6 @@ const addTextWatermarkToImage = async function(inputFile, outputFile, text) {
     console.log("Something went wrong... Try again."); 
     process.exit();
   }
-
 };
 
 const addImageWatermarkToImage = async function(inputFile, outputFile, watermarkFile) {
@@ -173,9 +172,6 @@ const startApp = async () => {
     console.log("Something went wrong... Try again.");
     process.exit();
   }
-
-
 }
-
 
 startApp();
